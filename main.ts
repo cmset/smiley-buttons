@@ -9,7 +9,9 @@ input.onButtonPressed(Button.A, function () {
         . # . # .
         . . # . .
         `)
-    music.playMelody("D F A E B F E G ", 120)
+    for (let index = 0; index < 4; index++) {
+        music.playMelody("D F A E B F E G ", 120)
+    }
 })
 input.onButtonPressed(Button.AB, function () {
     for (let index = 0; index < 1; index++) {
@@ -22,7 +24,9 @@ input.onButtonPressed(Button.AB, function () {
         . # # # .
         # . . . #
         `)
-    music.playMelody("C5 C C5 C C5 C C5 C ", 120)
+    for (let index = 0; index < 4; index++) {
+        music.playMelody("C5 C C5 C C5 C C5 C ", 120)
+    }
 })
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 1; index++) {
@@ -35,5 +39,7 @@ input.onButtonPressed(Button.B, function () {
         # . . . #
         . # # # .
         `)
-    music.playMelody("G F G A - F E D ", 120)
+    for (let index = 0; index < 4; index++) {
+        music.playMelody("G F G A - F E D ", 120)
+    }
 })
